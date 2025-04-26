@@ -61,11 +61,11 @@ public class HourlyTipsExercise extends ExerciseBase {
 		DataStream<TaxiFare> fares = env.addSource(fareSourceOrTest(new TaxiFareSource(input, maxEventDelay, servingSpeedFactor)));
 
 		DataStream<Tuple3<Long, Long, Float>> hourlyMax = fares
-				.keyBy((TaxiFare fare) -> fare.driverId) // группируем поездки по водителю
-				.timeWindow(Time.hours(1)) // окно времени - 1 час
-				.process(new FindTips()) // считаем чаевые
-				.timeWindowAll(Time.hours(1)) // применяем функцию для 1 часа
-				.maxBy(2); // максимизация по третьему элементу в кортеже - по сумме чаевых
+				.keyBy((TaxiFare fare) -> fare.driverId)
+				.timeWindow(Time.hours(1))
+				.process(new FindTips())
+				.timeWindowAll(Time.hours(1))
+				.maxBy(2); 
 
 		printOrTest(hourlyMax);
 		env.execute("Hourly Tips (java)");
