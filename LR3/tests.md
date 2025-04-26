@@ -1,10 +1,14 @@
 В данном файле представлены скриншоты успешного прохождения тестов
 
-![image](https://github.com/user-attachments/assets/8fa714f3-944f-4103-9f44-e294b4c7e0ec)
+Задание 1:
+![image](https://github.com/user-attachments/assets/eebe4c07-9c19-4eca-86d4-85721c51451f)
 
-![image](https://github.com/user-attachments/assets/fed473e1-83af-415c-a552-a542ae8a04d8)
+Задание 2:
+![image](https://github.com/user-attachments/assets/b9d7d2eb-2d5e-48d7-95b1-039005660f81)
 
-![image](https://github.com/user-attachments/assets/0412fb1f-aaa1-412f-b72a-69ef17b55e25)
 
-![image](https://github.com/user-attachments/assets/112d599a-d914-482a-9c19-7769b0eb36cb)
+Задание 3:
+![image](https://github.com/user-attachments/assets/0308d0fd-6078-4ea1-ab9e-8b4cf94a0763)
 
+Задание 4:
+![image](https://github.com/user-attachments/assets/8a4dba06-4a7d-4a71-bd2e-a821d1dbf565)
